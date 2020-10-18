@@ -1,6 +1,7 @@
 alert('Hola mundo desde js externo');
 var numero_1 = 6;
 var numero_2 = 20;
+var numero_3 = 43.4;
 var suma = numero_1 + numero_2;
 var num_par = 10;
 var espar = num_par % 2;
@@ -13,3 +14,5 @@ if ( espar == 0){
 else {
     console.log(" No es par");
 }
+var multiplicacion = numero_1*numero_2*numero_3;
+console.log (" La multiplicacion da" + multiplicacion);
