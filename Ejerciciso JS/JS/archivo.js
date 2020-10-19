@@ -2,6 +2,8 @@ alert('Hola mundo desde js externo');
 var numero_1 = 6;
 var numero_2 = 20;
 var numero_3 = 43.4;
+var nombre = 'Tadeo';
+var edad = 20;
 var suma = numero_1 + numero_2;
 var num_par = 10;
 var espar = num_par % 2;
@@ -16,3 +18,5 @@ else {
 }
 var multiplicacion = numero_1*numero_2*numero_3;
 console.log (" La multiplicacion da" + multiplicacion);
+document.write( "<p> Hola me llamo" + " " + nombre + ", tengo "+ " " + edad, " años</p> <hr>" );
+document.write("Me gusta estudiar <strong> programación</strong>");
