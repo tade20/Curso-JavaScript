@@ -14,7 +14,7 @@ function Reloj (){
     if (segundos < 10){
         segundos = '0' + segundos;
     }
-    document.getElementById("reloj").innerHTML = hora+':'+minutos+':'+segundos;
+    document.getElementById("clock").innerHTML = hora + " : " + minutos + " : " + segundos;
 }
 window.onload = function(){
     setInterval(Reloj, 1000);
