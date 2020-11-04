@@ -19,3 +19,6 @@ function Reloj (){
 window.onload = function(){
     setInterval(Reloj, 1000);
 }
+
+
+

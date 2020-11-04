@@ -6,7 +6,11 @@
     font-family: 'fuente2';
     src: url('DS-DIGI.TTF');
 }
-.clockdate-wrapper {
+@font-face{
+    font-family: 'fuente3';
+    src: url(rumbletumblecondital.ttf);
+}
+.reloj {
     background-color: #333;
     padding:25px;
     max-width:350px;
@@ -14,11 +18,30 @@
     text-align:center;
     border-radius:15px;
     margin:0 auto;
-    margin-top:15%;
+    
+    
 }
 #clock{
     font-family:'fuente1';
     font-size:60px;
     color:#fff;
+    color: cadetblue;
 }
-
+#listacomida{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+  }
+th{
+    background-color: rgba(255, 194, 148, 0.88);
+    font-family: 'fuente3';
+}
+td{
+    background-color: rgba(212, 0, 255, 0.79);
+}
