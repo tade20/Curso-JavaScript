@@ -2,13 +2,20 @@
     display: flex;
     background-image: url("/Imagenes/restaurante1.jpg");
     background-color: #cccccc;
+    flex-wrap: wrap;
     
 }
 #registro{
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
 #login{
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
