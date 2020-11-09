@@ -12,7 +12,7 @@ var usr3 = new usuario('59355970','Rodrigo','Franca','rofra@gmail.com','rofaqr93
 
 
 var usrs = [usr1, usr2, usr3];
- function Correo (event){
+ function validacion (event){
     var correo = document.getElementById('Email1').value;
     caracter1 = correo.indexOf("@");
     caracter2 = correo.indexOf(".");
