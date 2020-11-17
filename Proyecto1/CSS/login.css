@@ -1,8 +1,9 @@
 #caja1{
     display: flex;
-    background-image: url("/Imagenes/restaurante2.jpg");
+    
     background-color: #cccccc;
     flex-wrap: wrap;
+    border: 1px;
     
 }
 #registro{
@@ -10,6 +11,7 @@
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    border: 1px;
     
 }
 #login{
